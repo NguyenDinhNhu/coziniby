@@ -1,38 +1,192 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+}
+
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url(./components/Assets/fonts/FontAwesome.otf);
+}
+
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url(./components/Assets/fonts/fontawesome-webfont.ttf);
+}
+
+@font-face {
+  font-family: 'glyphicons-halflings-regular';
+  src: url(./components/Assets/fonts/glyphicons-halflings-regular.ttf);
+}
+
+@font-face {
+  font-family: 'UTM-Hanzel';
+  src: url(./components/Assets/fonts/UTM-Hanzel.ttf);
+}
+
+ul { list-style: none;}
+a, a:hover { text-decoration: none; color: #000;}
+
+/* background */
+.bg-sena {
+  position: relative;
+  background: #d7b659;
+  padding: 50px 0 70px 0;
+}
+
+.bg-sena::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  height: 40px;
+  width: 100%;
+  background-image: url(./components/Assets/img/bg-intro.png);
+  background-position: center;
+}
+
+.bg-sena::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 32px;
+  background-image: url(./components/Assets/img/bg-intro2.png);
+  background-position: center;
+}
+
+.bg-white {
+  position: relative;
+  background: url(./components/Assets/icon/bg.jpg);
+  padding: 30px 0;
+}
+
+.bg-white::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background: url(./components/Assets/img/bg-frs.png);
+  height: 60px;
+  background-position: center;
+}
+
+.bg-white::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: url(./components/Assets/img/bg-frs2.png);
+  height: 60px;
+  background-position: center;
+}
+
+/* title h2 */
+.title-heading {
+  font-family: 'UTM-Hanzel';
+  font-size: 36px;
   text-align: center;
+  color: #fff;
+  padding-bottom: 16px;
+  background-image: url(./components/Assets/img/bg-titH2a.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 64px;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* banner-title */
+.banner {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0000004d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.banner-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-family: 'UTM-Hanzel';
+  font-size: 52px;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+  background: url(./components/Assets/img/bg-titH2a.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Pagination */
+.pagination {
+  margin: 20px auto 0;
+  display: table;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination ul li {
+  float: left;
+  margin: 6px;
+  background: url(./components/Assets/icon/bg-pagi.png);
+  color: #000;
+  background-size: 100% 100%;
+  transition: all .35s;
+}
+
+.pagination ul li:hover, .pagination ul li.page-active {
+  background: url(./components/Assets/icon/bg-pagi-a.png);
+  background-size: 100% 100%;
+}
+
+.pagination ul li a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pagination ul li a i {
+  line-height: 36px;
+  font-weight: bold;
+}
+
+/* Back to top */
+.back-top {
+  position: fixed;
+  right: 16px;
+  width: 52px;
+  height: 52px;
+  bottom: 100px;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  background: #5d5d5d;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.back-top img {
+  vertical-align: middle;
+}
+
+/* Hotline */
+.fix-hotline {
+  position: fixed;
+  right: 18px;
+  bottom: 170px;
+  z-index: 99;
 }
