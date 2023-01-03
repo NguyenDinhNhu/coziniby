@@ -78,7 +78,15 @@ function Gallery() {
                                 </div>
                             </div>
                             <div className="pagination">
-                                <ul id="pagination-gallery"></ul>
+                                <ul id="pagination-gallery">
+                                    <li id="first-page"><a href="#"><i class="fa-solid fa-angles-left" aria-hidden="true"></i></a></li>
+                                    <li id="prev-page"><a href="#"><i class="fa-solid fa-angle-left" aria-hidden="true"></i></a></li>
+                                    <li class="current-page"><a href="#">1</a></li>
+                                    <li class="current-page"><a href="#">2</a></li>
+                                    <li class="current-page"><a href="#">3</a></li>
+                                    <li id="next-page"><a href="#"><i class="fa-solid fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li id="last-page"><a href="#"><i class="fa-solid fa-angles-right" aria-hidden="true"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

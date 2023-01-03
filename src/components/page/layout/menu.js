@@ -32,26 +32,6 @@ function Menu() {
             id: 6,
             img: require("../../Assets/img/menu-item6.png"),
             title: "Lasagne al Forno"
-        },
-        {
-            id: 7,
-            img: require("../../Assets/img/menu-item6.png"),
-            title: "Lasagne al Forno"
-        },
-        {
-            id: 8,
-            img: require("../../Assets/img/menu-item6.png"),
-            title: "Lasagne al Forno"
-        },
-        {
-            id: 9,
-            img: require("../../Assets/img/menu-item6.png"),
-            title: "Lasagne al Forno"
-        },
-        {
-            id: 10,
-            img: require("../../Assets/img/menu-item6.png"),
-            title: "Lasagne al Forno"
         }
     ];
     return (
