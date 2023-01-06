@@ -20,58 +20,58 @@ function Gallery() {
                     <div className="container">
                         <div className="gallery-box">
                             <div className="gallery-list row">
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item.jpg")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item2.png")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item3.png")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item4.png")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item5.png")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item6.png")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item7.png")} alt=""/>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-lg-3 col-sm-6">
-                                    <div class="gallery-item">
-                                        <a href="#" class="gallery-img">
+                                <div className="col-md-4 col-lg-3 col-sm-6">
+                                    <div className="gallery-item">
+                                        <a href="#" className="gallery-img">
                                             <img src={require("../../Assets/img/gallery-item8.png")} alt=""/>
                                         </a>
                                     </div>
@@ -79,13 +79,13 @@ function Gallery() {
                             </div>
                             <div className="pagination">
                                 <ul id="pagination-gallery">
-                                    <li id="first-page"><a href="#"><i class="fa-solid fa-angles-left" aria-hidden="true"></i></a></li>
-                                    <li id="prev-page"><a href="#"><i class="fa-solid fa-angle-left" aria-hidden="true"></i></a></li>
-                                    <li class="current-page"><a href="#">1</a></li>
-                                    <li class="current-page"><a href="#">2</a></li>
-                                    <li class="current-page"><a href="#">3</a></li>
-                                    <li id="next-page"><a href="#"><i class="fa-solid fa-angle-right" aria-hidden="true"></i></a></li>
-                                    <li id="last-page"><a href="#"><i class="fa-solid fa-angles-right" aria-hidden="true"></i></a></li>
+                                    <li id="first-page"><a href="#"><i className="fa-solid fa-angles-left" aria-hidden="true"></i></a></li>
+                                    <li id="prev-page"><a href="#"><i className="fa-solid fa-angle-left" aria-hidden="true"></i></a></li>
+                                    <li className="current-page"><a href="#">1</a></li>
+                                    <li className="current-page"><a href="#">2</a></li>
+                                    <li className="current-page"><a href="#">3</a></li>
+                                    <li id="next-page"><a href="#"><i className="fa-solid fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li id="last-page"><a href="#"><i className="fa-solid fa-angles-right" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>

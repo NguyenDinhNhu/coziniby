@@ -149,7 +149,7 @@ a, a:hover { text-decoration: none; color: #000;}
   background-size: 100% 100%;
 }
 
-.pagination ul li a {
+.pagination ul li {
   display: block;
   width: 36px;
   height: 36px;
@@ -157,6 +157,10 @@ a, a:hover { text-decoration: none; color: #000;}
   line-height: 36px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.pagination ul li:hover {
+  cursor: pointer;
 }
 
 .pagination ul li a i {
